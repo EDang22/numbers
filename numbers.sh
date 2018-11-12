@@ -4,7 +4,7 @@
 
 echo "Enter a positive number"
 read N
-while [ $N -lt 0 ]
+while [ $N -le 0 ]
 do
 	echo "You must enter a positive number!"
 	echo "Enter a positive number"
